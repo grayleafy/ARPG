@@ -1,0 +1,5 @@
+﻿物品类型,id,名称,描述,图标名称,冷却时间,动画名称,技能定义
+消耗品,1001,苹果,一个苹果的光辉时刻是什么时候,Apple,1,1,Null|Userself|RecoverHealth:20&PlayClip:Eat
+消耗品,1002,梨,无,2,1,1,Null|Userself|RecoverHealth:20
+消耗品,1003,酒,果然还是更想喝牛奶吧,Beer,1,1,Null|Userself|RecoverHealth:80
+消耗品,1004,骨头,似乎可以扔出去,Bone,1,1,Null|Parabola|Throw:Bone

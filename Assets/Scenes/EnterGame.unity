@@ -1,0 +1,1720 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 40
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &42965337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42965338}
+  - component: {fileID: 42965339}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42965338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42965337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2072789927}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42965339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42965337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd84e033384ca74e9365ea6fa33617a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    sceneName: "\u5730\u4E0B\u5BA41"
+    NPCInfos:
+    - id: 1
+      name: "\u96F7\u75D5"
+      tag: 1
+      prefabName: "Characters/\u4E3B\u89D2"
+      dialogueEntrys: e9030000
+      maxHealth: 500
+      health: 500
+      maxToughness: 10
+      toughness: 10
+      toughnessRegenSpeed: 1
+      toughnessRecoveryTime: 2
+      mainWeaponID: 0
+      secondaryWeaponID: 0
+      sceneName: "\u5730\u4E0B\u5BA41"
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.008726535, y: 0, z: 0, w: 0.9999619}
+      money: 100
+      bag:
+        weapons: []
+        usableItems: []
+    controlPlayerID: 1
+    activeTeamMemberIDs: 
+    backupTeamMemberIDs: 
+    SceneObjects: []
+    dialogueSegments:
+    - speaker: "\u6211"
+      id: 1001
+      entryCondition:
+        rid: -2
+      content: "\u8FD9\u662F\u54EA\u91CC\uFF0C\u6211\u4E3A\u4EC0\u4E48\u4F1A\u5728\u8FD9\u513F\uFF1F"
+      defaultJumpIDs: 
+      responseChoices: []
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\uFF1F\uFF1F\uFF1F"
+      id: 1002
+      entryCondition:
+        rid: -2
+      content: "\u4F60\u662F\u8C01\uFF1F\u4F60\u662F\u6765\u6293\u6211\u7684\u5417\uFF1F"
+      defaultJumpIDs: 
+      responseChoices:
+      - content: "\u4E0D\uFF0C\u6211\u662F\u8FD9\u4E2A\u5730\u4E0B\u5BA4\u7684\u53E6\u4E00\u4E2A\u88AB\u56F0\u8005\uFF0C\u6211\u4E5F\u5728\u5BFB\u627E\u9003\u751F\u7684\u65B9\u6CD5\u3002"
+        jumpIDs: ec030000
+      - content: "\u54E6\uFF0C\u5929\u54EA\uFF01\u4F60\u53D1\u73B0\u4E86\u6211\u7684\u79D8\u5BC6\uFF01\u6211\u662F\u6765\u6293\u4F60\u7684\uFF0C\u6211\u662F\u8FD9\u4E2A\u5730\u4E0B\u5BA4\u7684\u6076\u9B54\uFF01"
+        jumpIDs: eb030000
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\uFF1F\uFF1F\uFF1F"
+      id: 1003
+      entryCondition:
+        rid: -2
+      content: "\u4EC0\u4E48\uFF1F\u4F60\u662F\u8BA4\u771F\u7684\u5417\uFF1F"
+      defaultJumpIDs: 
+      responseChoices:
+      - content: "\u5F00\u73A9\u7B11\u7684\uFF01\u5F53\u7136\u4E0D\u662F\uFF01\u6211\u53EA\u662F\u53E6\u4E00\u4E2A\u88AB\u56F0\u7684\u4EBA\uFF0C\u4E5F\u5728\u5BFB\u627E\u9003\u751F\u7684\u65B9\u6CD5\u3002"
+        jumpIDs: ec030000
+      enterAction:
+        rid: 7413605120775815171
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1004
+      entryCondition:
+        rid: -2
+      content: "\u5413\u6B7B\u6211\u4E86\uFF0C\u6211\u53EB\u897F\u8499\uFF0C\u5982\u4F60\u6240\u89C1\uFF0C\u4E5F\u88AB\u56F0\u5728\u4E86\u8FD9\u91CC"
+      defaultJumpIDs: ed030000
+      responseChoices: []
+      enterAction:
+        rid: 7413605120775815172
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1005
+      entryCondition:
+        rid: -2
+      content: "\u522B\u770B\u6211\u73B0\u5728\u8FD9\u72FC\u72C8\u6837\uFF0C\u6211\u624B\u91CC\u53EF\u6709\u4E0D\u5C11\u597D\u4E1C\u897F\uFF0C\u4F60\u4E00\u5B9A\u4F1A\u7528\u4E0A\u7684"
+      defaultJumpIDs: 
+      responseChoices:
+      - content: "\u4EC0\u4E48\u597D\u4E1C\u897F\uFF0C\u8BA9\u6211\u5EB7\u5EB7"
+        jumpIDs: ee030000
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1006
+      entryCondition:
+        rid: -2
+      content: "\u4F60\u5148\u522B\u6025\uFF0C\u597D\u4E1C\u897F\u53EF\u4E0D\u80FD\u767D\u7ED9\u4F60\uFF0C\u5F97\u7528\u94B1\u6765\u4E70"
+      defaultJumpIDs: 
+      responseChoices:
+      - content: "\u8FD9\u65F6\u5019\u8FD8\u8981\u94B1\uFF0C\u6211\u770B\u4F60\u662F\u5B8C\u5168\u4E0D\u61C2\u73B0\u5728\u7684\u5904\u5883\u54E6"
+        jumpIDs: ef030000
+      - content: "\u6211\u4E0A\u54EA\u513F\u7ED9\u4F60\u5F04\u94B1\u5462\uFF1F"
+        jumpIDs: f0030000
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1007
+      entryCondition:
+        rid: -2
+      content: "\u4E3A\u4EC0\u4E48\u4E0D\u80FD\u8981\u94B1\uFF0C\u5982\u679C\u4F60\u4E0D\u5728\u4E4E\u94B1\uFF0C\u90A3\u53EA\u80FD\u8BF4\u660E\u4F60\u7684\u4FE1\u5FF5\u4E0D\u591F\u575A\u5B9A\uFF0C\u4E0D\u76F8\u4FE1\u81EA\u5DF1\u4E00\u5B9A\u80FD\u9003\u51FA\u53BB\u3002\u51FA\u53BB\u4E4B\u540E\uFF0C\u5E72\u4EC0\u4E48\u53EF\u4E0D\u90FD\u5F97\u9700\u8981\u94B1"
+      defaultJumpIDs: 
+      responseChoices:
+      - content: "\u884C\u5427\uFF0C\u90A3\u4E48\u54EA\u91CC\u624D\u80FD\u7ED9\u4F60\u5F04\u5230\u94B1\u5462"
+        jumpIDs: f0030000
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1008
+      entryCondition:
+        rid: -2
+      content: "\u5DE6\u8FB9\u7684\u623F\u95F4\u6709\u53D8\u5F02\u4EBA\u628A\u5B88\uFF0C\u6211\u731C\u91CC\u9762\u80AF\u5B9A\u6709\u8D22\u5B9D\u4E4B\u7C7B\u7684"
+      defaultJumpIDs: 
+      responseChoices: []
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1009
+      entryCondition:
+        rid: -2
+      content: "\u6765\u4E70\u4E1C\u897F\u7684\u5417"
+      defaultJumpIDs: 
+      responseChoices:
+      - content: "\u4F60\u8FD9\u91CC\u6709\u4EC0\u4E48\uFF1F"
+        jumpIDs: f2030000
+      - content: "\u4E0D\uFF0C\u6CA1\u4E8B"
+        jumpIDs: 
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1010
+      entryCondition:
+        rid: -2
+      content: "\u6211\u8FD9\u513F\u53EF\u5168\u662F\u597D\u4E1C\u897F\uFF0C\u4E70\u4E0D\u4E86\u5403\u4E8F\uFF0C\u4E70\u4E0D\u4E86\u4E0A\u5F53"
+      defaultJumpIDs: 
+      responseChoices: []
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: 7413605126093406210
+    - speaker: "\u897F\u8499"
+      id: 1011
+      entryCondition:
+        rid: -2
+      content: "\u73B0\u5728\u4F60\u5DF2\u7ECF\u6709\u5B9E\u529B\u53BB\u6311\u6218\u66F4\u5389\u5BB3\u7684\u654C\u4EBA\u4E86\uFF0C\u53BB\u5DE6\u8FB9\u7684\u5927\u5385\u91CC\u627E\u5230\u6211\u623F\u95E8\u7684\u94A5\u5319\uFF0C\u628A\u6211\u4E5F\u6551\u51FA\u53BB\u5427"
+      defaultJumpIDs: 
+      responseChoices:
+      - content: "\u597D\u7684\uFF0C\u6211\u53BB\u53BB\u5C31\u56DE"
+        jumpIDs: f4030000
+      - content: "\u4E0D\u6551\uFF0C\u6211\u4EEC\u5F88\u719F\u5417"
+        jumpIDs: 
+      - content: "\u6211\u6765\u4E70\u4E1C\u897F"
+        jumpIDs: f2030000
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1012
+      entryCondition:
+        rid: -2
+      content: "\u5168\u9760\u4F60\u4E86"
+      defaultJumpIDs: 
+      responseChoices: []
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: -2
+    - speaker: "\u897F\u8499"
+      id: 1013
+      entryCondition:
+        rid: -2
+      content: "\u592A\u597D\u4E86\uFF0C\u6211\u5C31\u77E5\u9053\u4F60\u80FD\u884C\uFF0C\u90A3\u6211\u5148\u8D70\u4E00\u6B65\u4E86"
+      defaultJumpIDs: 
+      responseChoices: []
+      enterAction:
+        rid: -2
+      exitAction:
+        rid: 7413605152675856390
+    tasks:
+    - name: "\u5730\u4E0B\u5BA4\u9634\u5F71"
+      id: 1
+      description: "\u4F60\u5728\u4E00\u4E2A\u964C\u751F\u7684\u5730\u4E0B\u5BA4\u4E2D\u9192\u6765\uFF0C\u4F60\u4E0D\u77E5\u9053\u4E3A\u4F55\u4F1A\u5728\u8FD9\u91CC\u3002\u63A2\u7D22\u4E00\u4E0B\u5468\u56F4\u5427"
+      state: 1
+      entryCondition:
+        rid: -2
+      notTriggerNodes:
+      - name: "\u4ECE\u68A6\u4E2D\u82CF\u9192"
+        id: 1
+        predecessors: 
+        successors: 02000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: -2
+        entryAction:
+          rid: 7413605080825069568
+        completeAction:
+          rid: -2
+      - name: "\u8C03\u67E5\u4E66\u684C"
+        id: 2
+        predecessors: 01000000
+        successors: 03000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605098011230270
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: -2
+      - name: "\u5BFB\u627E\u623F\u95E8\u7684\u94A5\u5319"
+        id: 3
+        predecessors: 
+        successors: 04000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605098011230271
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: -2
+      - name: "\u6253\u5F00\u623F\u95E8"
+        id: 4
+        predecessors: 
+        successors: 05000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605104342532098
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: 7413605120775815168
+      - name: "\u51FB\u8D25\u5E55\u540E\u9ED1\u624B"
+        id: 5
+        predecessors: 04000000
+        successors: 
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605171236176657
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: 7413605171236176659
+      triggeredNotStartedNodes: []
+      startedNodes: []
+    - name: "\u90BB\u5C45\u7684\u8BF7\u6C42"
+      id: 2
+      description: "\u5F53\u4F60\u4ECE\u7EC8\u4E8E\u4ECE\u623F\u95F4\u9003\u51FA\uFF0C\u5374\u53D1\u73B0\u9694\u58C1\u8FD8\u6709\u4E00\u4E2A\u4EBA\u3002\u4F60\u4EEC\u7684\u547D\u8FD0\u7D27\u5BC6\u76F8\u8FDE\uFF0C\u53EA\u6709\u901A\u8FC7\u5408\u4F5C\u548C\u52C7\u6C14\uFF0C\u624D\u80FD\u591F\u6218\u80DC\u56F0\u5883\u3002"
+      state: 0
+      entryCondition:
+        rid: 7413605120775815169
+      notTriggerNodes:
+      - name: "\u5411\u90BB\u5C45\u642D\u8BDD"
+        id: 1
+        predecessors: 
+        successors: 02000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605126093406208
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: 7413605126093406211
+      - name: "\u51FB\u8D25\u623F\u95F4\u5B88\u536B"
+        id: 2
+        predecessors: 01000000
+        successors: 03000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605144172691466
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: -2
+      - name: "\u8FDB\u5165\u623F\u95F4"
+        id: 3
+        predecessors: 02000000
+        successors: 04000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605144172691533
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: -2
+      - name: "\u627E\u5230\u8D22\u5B9D"
+        id: 4
+        predecessors: 03000000
+        successors: 05000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605144172691693
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: -2
+      - name: "\u8D2D\u4E70\u624B\u67AA"
+        id: 5
+        predecessors: 04000000
+        successors: 06000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605144172691535
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: -2
+      - name: "\u548C\u897F\u8499\u4EA4\u8C08,\u7B54\u5E94\u4ED6\u7684\u8BF7\u6C42"
+        id: 6
+        predecessors: 05000000
+        successors: 07000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605144172691822
+        entryAction:
+          rid: 7413605166853390336
+        completeAction:
+          rid: -2
+      - name: "\u627E\u5230\u897F\u8499\u623F\u95F4\u7684\u94A5\u5319"
+        id: 7
+        predecessors: 06000000
+        successors: 08000000
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605144172691823
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: -2
+      - name: "\u6253\u5F00\u897F\u8499\u623F\u95F4\u7684\u95E8"
+        id: 8
+        predecessors: 07000000
+        successors: 
+        entryCondition:
+          rid: -2
+        completeCondition:
+          rid: 7413605152675856385
+        entryAction:
+          rid: -2
+        completeAction:
+          rid: 7413605152675856387
+      triggeredNotStartedNodes: []
+      startedNodes: []
+    weapons:
+    - name: "\u5251"
+      id: 1
+      iconName: Icons/sword
+      toolTip: just a sword
+      purchasePrice: 70
+      prefabName: Weapons/Sword
+      type: 0
+      attackBehavior:
+        rid: 7413604993921187891
+      aimBehavior:
+        rid: -2
+      shootBehavior:
+        rid: -2
+    - name: "\u5DE6\u8F6E\u624B\u67AA"
+      id: 2
+      iconName: Icons/pistol
+      toolTip: a gun, can shoot
+      purchasePrice: 100
+      prefabName: Weapons/Revolver
+      type: 1
+      attackBehavior:
+        rid: -2
+      aimBehavior:
+        rid: 7413604993921187915
+      shootBehavior:
+        rid: 7413604993921187923
+    - name: "\u65A7\u5934"
+      id: 3
+      iconName: Icons/axe
+      toolTip: An Axe, huge damage!
+      purchasePrice: 50
+      prefabName: Weapons/Axe
+      type: 0
+      attackBehavior:
+        rid: 7413604993921187926
+      aimBehavior:
+        rid: -2
+      shootBehavior:
+        rid: -2
+    - name: "\u9B54\u6CD5\u5251"
+      id: 4
+      iconName: Icons/sword
+      toolTip: "\u5E26\u6709\u5200\u5149\u7684\u5251"
+      purchasePrice: 50
+      prefabName: Weapons/Sword
+      type: 0
+      attackBehavior:
+        rid: 7413605171236175887
+      aimBehavior:
+        rid: -2
+      shootBehavior:
+        rid: -2
+    usableItems:
+    - name: "\u6B8B\u7F3A\u7684\u7B14\u8BB0"
+      id: 2001
+      iconName: Icons/Book
+      toolTip: "\u7834\u65E7\u4E0D\u582A\u7684\u7B14\u8BB0\uFF0C\u4F3C\u4E4E\u662F\u4E4B\u524D\u7684\u4EBA\u7559\u4E0B\u7684"
+      purchasePrice: 0
+      useBehavior:
+        rid: 7413605098011230272
+    - name: "\u623F\u95E8\u94A5\u5319"
+      id: 2002
+      iconName: Icons/Key
+      toolTip: "\u4E5F\u8BB8\u53EF\u4EE5\u6253\u5F00\u623F\u95E8"
+      purchasePrice: 0
+      useBehavior:
+        rid: 7413605080825070162
+    - name: "\u9694\u58C1\u623F\u95F4\u7684\u94A5\u5319"
+      id: 2003
+      iconName: Icons/Key
+      toolTip: "\u53EF\u4EE5\u6253\u5F00\u9694\u58C1\u623F\u95F4\u7684\u95E8"
+      purchasePrice: 0
+      useBehavior:
+        rid: 7413605104342532096
+    - name: "\u91D1\u6761"
+      id: 2004
+      iconName: Icons/Gold
+      toolTip: "\u4F7F\u7528\u53EF\u4EE5\u83B7\u5F971000\u91D1\u5E01"
+      purchasePrice: 0
+      useBehavior:
+        rid: 7413605144172691456
+  controlPlayer: {fileID: 0}
+  teamMembers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7413604993921187891
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187892
+        - rid: 7413604993921187893
+        - rid: 7413604993921187899
+    - rid: 7413604993921187892
+      type: {class: HoldMainWeapon, ns: BT, asm: Assembly-CSharp}
+    - rid: 7413604993921187893
+      type: {class: WeaponCustomEffect, ns: BT, asm: Assembly-CSharp}
+      data:
+        weapon: 0
+        weaponEffectType: 0
+    - rid: 7413604993921187899
+      type: {class: ParallelSelector, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187900
+        - rid: 7413604993921187901
+        - rid: 7413604993921187902
+    - rid: 7413604993921187900
+      type: {class: ApplyRootMotion, ns: BT, asm: Assembly-CSharp}
+      data:
+        duration: -1
+    - rid: 7413604993921187901
+      type: {class: KeepStagger, ns: BT, asm: Assembly-CSharp}
+      data:
+        duration: -1
+    - rid: 7413604993921187902
+      type: {class: SequentialSelector, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187903
+        - rid: 7413604993921187909
+        resetTime: 1
+    - rid: 7413604993921187903
+      type: {class: Parallel, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187904
+        - rid: 7413604993921187905
+    - rid: 7413604993921187904
+      type: {class: PlayAnimation, ns: BT, asm: Assembly-CSharp}
+      data:
+        animationName: straight_sword_th_light_attack_01
+        earlyTerminationTime: 1
+        transitionDuration: 0.25
+    - rid: 7413604993921187905
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187906
+        - rid: 7413604993921187907
+        - rid: 7413604993921187908
+    - rid: 7413604993921187906
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 0.6
+    - rid: 7413604993921187907
+      type: {class: AutoSetSectorAsTargetGameObjects, ns: BT, asm: Assembly-CSharp}
+      data:
+        radius: 2
+        angleRange_L: -120
+        angleRange_R: 120
+        heightRange_L: 1
+        heightRange_R: 0.5
+    - rid: 7413604993921187908
+      type: {class: HitAndTakeDamage, ns: BT, asm: Assembly-CSharp}
+      data:
+        damageValue: 10
+        toughnessPenalty: 10
+        impactTime: 0.05
+    - rid: 7413604993921187909
+      type: {class: Parallel, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187910
+        - rid: 7413604993921187911
+    - rid: 7413604993921187910
+      type: {class: PlayAnimation, ns: BT, asm: Assembly-CSharp}
+      data:
+        animationName: straight_sword_th_light_attack_02
+        earlyTerminationTime: 1
+        transitionDuration: 0.25
+    - rid: 7413604993921187911
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187912
+        - rid: 7413604993921187913
+        - rid: 7413604993921187914
+    - rid: 7413604993921187912
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 0.6
+    - rid: 7413604993921187913
+      type: {class: AutoSetSectorAsTargetGameObjects, ns: BT, asm: Assembly-CSharp}
+      data:
+        radius: 2
+        angleRange_L: -120
+        angleRange_R: 120
+        heightRange_L: 1
+        heightRange_R: 0.5
+    - rid: 7413604993921187914
+      type: {class: HitAndTakeDamage, ns: BT, asm: Assembly-CSharp}
+      data:
+        damageValue: 10
+        toughnessPenalty: 10
+        impactTime: 0.05
+    - rid: 7413604993921187915
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187917
+        - rid: 7413604993921187918
+        - rid: 7413604993921187919
+        - rid: 7413604993921187920
+    - rid: 7413604993921187917
+      type: {class: AutoSetClosetAsTargetGameObject, ns: BT, asm: Assembly-CSharp}
+    - rid: 7413604993921187918
+      type: {class: SetTargetGameObjectAsAimTarget, ns: BT, asm: Assembly-CSharp}
+    - rid: 7413604993921187919
+      type: {class: HoldSecondaryWeaponAndAim, ns: BT, asm: Assembly-CSharp}
+    - rid: 7413604993921187920
+      type: {class: WeaponCustomEffect, ns: BT, asm: Assembly-CSharp}
+      data:
+        weapon: 1
+        weaponEffectType: 1
+    - rid: 7413604993921187923
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187924
+        - rid: 7413604993921187925
+    - rid: 7413604993921187924
+      type: {class: WeaponCustomEffect, ns: BT, asm: Assembly-CSharp}
+      data:
+        weapon: 1
+        weaponEffectType: 2
+    - rid: 7413604993921187925
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 0.2
+    - rid: 7413604993921187926
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187927
+        - rid: 7413604993921187928
+        - rid: 7413604993921187929
+    - rid: 7413604993921187927
+      type: {class: HoldMainWeapon, ns: BT, asm: Assembly-CSharp}
+    - rid: 7413604993921187928
+      type: {class: WeaponCustomEffect, ns: BT, asm: Assembly-CSharp}
+      data:
+        weapon: 0
+        weaponEffectType: 0
+    - rid: 7413604993921187929
+      type: {class: ParallelSelector, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187930
+        - rid: 7413604993921187931
+        - rid: 7413604993921187932
+    - rid: 7413604993921187930
+      type: {class: ApplyRootMotion, ns: BT, asm: Assembly-CSharp}
+      data:
+        duration: -1
+    - rid: 7413604993921187931
+      type: {class: KeepStagger, ns: BT, asm: Assembly-CSharp}
+      data:
+        duration: -1
+    - rid: 7413604993921187932
+      type: {class: SequentialSelector, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187933
+        - rid: 7413604993921187943
+        resetTime: 1
+    - rid: 7413604993921187933
+      type: {class: Parallel, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187934
+        - rid: 7413604993921187935
+    - rid: 7413604993921187934
+      type: {class: PlayAnimation, ns: BT, asm: Assembly-CSharp}
+      data:
+        animationName: StandingMeleeComboAttackVer3
+        earlyTerminationTime: 1
+        transitionDuration: 0.25
+    - rid: 7413604993921187935
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187936
+        - rid: 7413604993921187937
+        - rid: 7413604993921187938
+        - rid: 7413604993921187939
+        - rid: 7413604993921187941
+        - rid: 7413604993921187942
+    - rid: 7413604993921187936
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 1
+    - rid: 7413604993921187937
+      type: {class: AutoSetSectorAsTargetGameObjects, ns: BT, asm: Assembly-CSharp}
+      data:
+        radius: 1.5
+        angleRange_L: -150
+        angleRange_R: 150
+        heightRange_L: 1
+        heightRange_R: 0.5
+    - rid: 7413604993921187938
+      type: {class: HitAndTakeDamage, ns: BT, asm: Assembly-CSharp}
+      data:
+        damageValue: 10
+        toughnessPenalty: 10
+        impactTime: 0.05
+    - rid: 7413604993921187939
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 0.6
+    - rid: 7413604993921187941
+      type: {class: AutoSetSectorAsTargetGameObjects, ns: BT, asm: Assembly-CSharp}
+      data:
+        radius: 1.5
+        angleRange_L: -150
+        angleRange_R: 150
+        heightRange_L: 1
+        heightRange_R: 0.5
+    - rid: 7413604993921187942
+      type: {class: HitAndTakeDamage, ns: BT, asm: Assembly-CSharp}
+      data:
+        damageValue: 10
+        toughnessPenalty: 10
+        impactTime: 0.05
+    - rid: 7413604993921187943
+      type: {class: Parallel, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187944
+        - rid: 7413604993921187945
+    - rid: 7413604993921187944
+      type: {class: PlayAnimation, ns: BT, asm: Assembly-CSharp}
+      data:
+        animationName: StandingMeleeAttack360High
+        earlyTerminationTime: 1
+        transitionDuration: 0.25
+    - rid: 7413604993921187945
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413604993921187946
+        - rid: 7413604993921187947
+        - rid: 7413604993921187948
+    - rid: 7413604993921187946
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 1
+    - rid: 7413604993921187947
+      type: {class: AutoSetSectorAsTargetGameObjects, ns: BT, asm: Assembly-CSharp}
+      data:
+        radius: 1.5
+        angleRange_L: -179
+        angleRange_R: 179
+        heightRange_L: 1
+        heightRange_R: 0.5
+    - rid: 7413604993921187948
+      type: {class: HitAndTakeDamage, ns: BT, asm: Assembly-CSharp}
+      data:
+        damageValue: 20
+        toughnessPenalty: 20
+        impactTime: 0.05
+    - rid: 7413605080825069568
+      type: {class: PlayTimeLine, ns: , asm: Assembly-CSharp}
+      data:
+        timeLineName: WakeTimeLine
+    - rid: 7413605080825070162
+      type: {class: Entry, ns: BT, asm: Assembly-CSharp}
+      data:
+        child:
+          rid: 7413605080825070163
+    - rid: 7413605080825070163
+      type: {class: OpenToolTipPanel, ns: BT, asm: Assembly-CSharp}
+      data:
+        toolTip: "\u8BD5\u7740\u6253\u5F00\u623F\u95F4\u95E8\u5427"
+    - rid: 7413605098011230270
+      type: {class: OwnItemConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        itemID: 2001
+    - rid: 7413605098011230271
+      type: {class: OwnItemConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        itemID: 2002
+    - rid: 7413605098011230272
+      type: {class: Entry, ns: BT, asm: Assembly-CSharp}
+      data:
+        child:
+          rid: 7413605098011230273
+    - rid: 7413605098011230273
+      type: {class: OpenToolTipPanel, ns: BT, asm: Assembly-CSharp}
+      data:
+        toolTip: "\u5982\u679C\u4F60\u80FD\u770B\u5230\u8FD9\u5F20\u7B14\u8BB0\uFF0C\u90A3\u610F\u5473\u7740\u4F60\u5DF2\u7ECF\u9677\u5165\u4E86\u8FD9\u4E2A\u53EF\u6015\u7684\u5730\u65B9\uFF0C\u5C31\u50CF\u6211\u4E00\u6837\u3002\u6211\u5BF9\u8FD9\u4E2A\u5730\u65B9\u4E00\u65E0\u6240\u77E5\u3002\u4F46\u662F\uFF0C\u901A\u8FC7\u89C2\u5BDF\u548C\u7814\u7A76\uFF0C\u6211\u53D1\u73B0\u8FD9\u91CC\u8FDB\u884C\u4E86\u4E00\u7CFB\u5217\u7684\u4EBA\u4F53\u5B9E\u9A8C\uFF0C\u76EE\u7684\u4E0D\u660E\u3002\u53F3\u8FB9\u7684\u7BB1\u5B50\u540E\u9762\u85CF\u6709\u4E00\u628A\u94A5\u5319\uFF0C\u5B83\u6216\u8BB8\u53EF\u4EE5\u6253\u5F00\u67D0\u4E2A\u95E8\u3002\u8BB0\u4F4F\uFF0C\u4E0D\u8981\u653E\u5F03\u5E0C\u671B\uFF0C\u5373\u4F7F\u770B\u8D77\u6765\u65E0\u671B\uFF0C\u4E5F\u8981\u575A\u6301\u4E0B\u53BB\u3002"
+    - rid: 7413605104342532096
+      type: {class: Entry, ns: BT, asm: Assembly-CSharp}
+      data:
+        child:
+          rid: 7413605104342532097
+    - rid: 7413605104342532097
+      type: {class: OpenToolTipPanel, ns: BT, asm: Assembly-CSharp}
+      data:
+        toolTip: "\u53BB\u9694\u58C1\u623F\u95F4\u524D\u5F00\u95E8\u5427"
+    - rid: 7413605104342532098
+      type: {class: SceneObjectInteractedConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        sceneObjectID: 4
+    - rid: 7413605120775815168
+      type: {class: TriggerTaskGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        taskID: 2
+    - rid: 7413605120775815169
+      type: {class: SceneObjectInteractedConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        sceneObjectID: 4
+    - rid: 7413605120775815171
+      type: {class: NPCPlayAnimationGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 2
+        animationName: Alert
+    - rid: 7413605120775815172
+      type: {class: NPCPlayAnimationGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 2
+        animationName: NoAction
+    - rid: 7413605126093406208
+      type: {class: DialogueConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        dialogueID: 1008
+    - rid: 7413605126093406210
+      type: {class: OpenShopPanelGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 2
+    - rid: 7413605126093406211
+      type: {class: SetDialogueGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 2
+        dialogueEntrys: f1030000
+    - rid: 7413605144172691456
+      type: {class: Entry, ns: BT, asm: Assembly-CSharp}
+      data:
+        child:
+          rid: 7413605144172691457
+    - rid: 7413605144172691457
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413605144172691458
+        - rid: 7413605144172691459
+        - rid: 8928898664387838175
+    - rid: 7413605144172691458
+      type: {class: OpenToolTipPanel, ns: BT, asm: Assembly-CSharp}
+      data:
+        toolTip: "\u83B7\u5F971000\u91D1\u5E01"
+    - rid: 7413605144172691459
+      type: {class: GainMoney, ns: BT, asm: Assembly-CSharp}
+      data:
+        money: 1000
+    - rid: 7413605144172691466
+      type: {class: DeathConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 1001
+    - rid: 7413605144172691533
+      type: {class: SceneConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        sceneName: "\u8D22\u7269\u5E93"
+    - rid: 7413605144172691535
+      type: {class: OwnItemConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        itemID: 2
+    - rid: 7413605144172691693
+      type: {class: OwnItemConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        itemID: 2004
+    - rid: 7413605144172691822
+      type: {class: DialogueConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        dialogueID: 1012
+    - rid: 7413605144172691823
+      type: {class: OwnItemConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        itemID: 2003
+    - rid: 7413605152675856385
+      type: {class: SceneObjectInteractedConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        sceneObjectID: 5
+    - rid: 7413605152675856387
+      type: {class: SequentialGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        sequentialActions:
+        - rid: 7413605152675856388
+        - rid: 7413605152675856389
+        - rid: 7413605171236176656
+    - rid: 7413605152675856388
+      type: {class: SetDialogueGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 2
+        dialogueEntrys: f5030000
+    - rid: 7413605152675856389
+      type: {class: NPCTalkGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 2
+    - rid: 7413605152675856390
+      type: {class: PlayTimeLine, ns: , asm: Assembly-CSharp}
+      data:
+        timeLineName: EscapeTimeLine
+    - rid: 7413605166853390336
+      type: {class: SetDialogueGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 2
+        dialogueEntrys: f3030000
+    - rid: 7413605171236175887
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413605171236175888
+        - rid: 7413605171236175889
+        - rid: 7413605171236175890
+    - rid: 7413605171236175888
+      type: {class: HoldMainWeapon, ns: BT, asm: Assembly-CSharp}
+    - rid: 7413605171236175889
+      type: {class: WeaponCustomEffect, ns: BT, asm: Assembly-CSharp}
+      data:
+        weapon: 0
+        weaponEffectType: 0
+    - rid: 7413605171236175890
+      type: {class: ParallelSelector, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413605171236175891
+        - rid: 7413605171236175892
+        - rid: 7413605171236175893
+    - rid: 7413605171236175891
+      type: {class: ApplyRootMotion, ns: BT, asm: Assembly-CSharp}
+      data:
+        duration: -1
+    - rid: 7413605171236175892
+      type: {class: KeepStagger, ns: BT, asm: Assembly-CSharp}
+      data:
+        duration: -1
+    - rid: 7413605171236175893
+      type: {class: SequentialSelector, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413605171236175894
+        - rid: 7413605171236175917
+        resetTime: 1
+    - rid: 7413605171236175894
+      type: {class: Parallel, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413605171236175895
+        - rid: 7413605171236175896
+    - rid: 7413605171236175895
+      type: {class: PlayAnimation, ns: BT, asm: Assembly-CSharp}
+      data:
+        animationName: straight_sword_th_light_attack_01
+        earlyTerminationTime: 1
+        transitionDuration: 0.25
+    - rid: 7413605171236175896
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413605171236175897
+        - rid: 7413605171236175898
+        - rid: 7413605171236175899
+        - rid: 7413605171236175900
+        - rid: 7413605171236175901
+    - rid: 7413605171236175897
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 0.5
+    - rid: 7413605171236175898
+      type: {class: ProduceTemporaryPrefab, ns: BT, asm: Assembly-CSharp}
+      data:
+        prefabName: Magics/StoneSlash
+        lastingTime: 1
+        positionOffset: {x: 0, y: 1.09, z: 0}
+        rotationOffset: {x: 0.38429552, y: -0.00000001679809, z: -0.92321014, w: 0.0000000403548}
+        scale: {x: 1, y: 1, z: 1}
+    - rid: 7413605171236175899
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 0.1
+    - rid: 7413605171236175900
+      type: {class: AutoSetSectorAsTargetGameObjects, ns: BT, asm: Assembly-CSharp}
+      data:
+        radius: 3
+        angleRange_L: -120
+        angleRange_R: 120
+        heightRange_L: 1
+        heightRange_R: 0.5
+    - rid: 7413605171236175901
+      type: {class: HitAndTakeDamage, ns: BT, asm: Assembly-CSharp}
+      data:
+        damageValue: 15
+        toughnessPenalty: 10
+        impactTime: 0.05
+    - rid: 7413605171236175917
+      type: {class: Parallel, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413605171236175918
+        - rid: 7413605171236175919
+    - rid: 7413605171236175918
+      type: {class: PlayAnimation, ns: BT, asm: Assembly-CSharp}
+      data:
+        animationName: straight_sword_th_light_attack_02
+        earlyTerminationTime: 1
+        transitionDuration: 0.25
+    - rid: 7413605171236175919
+      type: {class: Sequence, ns: BT, asm: Assembly-CSharp}
+      data:
+        children:
+        - rid: 7413605171236175920
+        - rid: 7413605171236175921
+        - rid: 7413605171236175922
+        - rid: 7413605171236175923
+        - rid: 7413605171236175924
+    - rid: 7413605171236175920
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 0.5
+    - rid: 7413605171236175921
+      type: {class: ProduceTemporaryPrefab, ns: BT, asm: Assembly-CSharp}
+      data:
+        prefabName: Magics/StoneSlash
+        lastingTime: 1
+        positionOffset: {x: 0, y: 1.09, z: 0}
+        rotationOffset: {x: 0, y: -0.38268346, z: 0, w: 0.9238795}
+        scale: {x: 1, y: 1, z: 1}
+    - rid: 7413605171236175922
+      type: {class: Wait, ns: BT, asm: Assembly-CSharp}
+      data:
+        waitTime: 0.1
+    - rid: 7413605171236175923
+      type: {class: AutoSetSectorAsTargetGameObjects, ns: BT, asm: Assembly-CSharp}
+      data:
+        radius: 3
+        angleRange_L: -120
+        angleRange_R: 120
+        heightRange_L: 1
+        heightRange_R: 0.5
+    - rid: 7413605171236175924
+      type: {class: HitAndTakeDamage, ns: BT, asm: Assembly-CSharp}
+      data:
+        damageValue: 15
+        toughnessPenalty: 10
+        impactTime: 0.05
+    - rid: 7413605171236176656
+      type: {class: TaskCompleteGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        taskID: 2
+    - rid: 7413605171236176657
+      type: {class: DeathConditionChecker, ns: , asm: Assembly-CSharp}
+      data:
+        npcID: 9999
+    - rid: 7413605171236176659
+      type: {class: SequentialGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        sequentialActions:
+        - rid: 7413605171236176660
+    - rid: 7413605171236176660
+      type: {class: TaskCompleteGameAction, ns: , asm: Assembly-CSharp}
+      data:
+        taskID: 1
+    - rid: 8928898664387838175
+      type: {class: RemoveItem, ns: BT, asm: Assembly-CSharp}
+      data:
+        ItemID: 2004
+--- !u!1 &364831916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364831917}
+  - component: {fileID: 364831919}
+  - component: {fileID: 364831918}
+  m_Layer: 0
+  m_Name: InputMgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364831917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364831916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2072789927}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364831918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364831916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 6bfaa3edb73fc5549a80ba7ea657cb46,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnWSAD
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: b5f3e2e1-5dbc-4c11-9f6c-2876bd3de20f
+    m_ActionName: ActionMap/WSAD[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnEsc
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 413b3de7-160e-4333-8d54-124a2bebc9e0
+    m_ActionName: ActionMap/Esc[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnMousePos
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 294638dc-d285-4ef4-a116-81281044c1ee
+    m_ActionName: ActionMap/MousePos[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnMouseDelta
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: fb18a069-c16e-475a-95c4-856cb510dcef
+    m_ActionName: ActionMap/MouseDelta[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnMouseMiddleButton
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 50f3fa13-e649-49a5-aa5f-bf885b5ce812
+    m_ActionName: ActionMap/MouseMiddleButton[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnShift
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ca91f617-897d-4748-9ca2-4a718d3d84c5
+    m_ActionName: ActionMap/Shift[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnCrouch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 339806ae-1408-46c9-acb8-8d7e12cae4f7
+    m_ActionName: ActionMap/C[/Keyboard/c]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnMouseLeft
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: bdde0e78-77b4-450b-b1ef-99f88d837440
+    m_ActionName: ActionMap/MouseLeft[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364831919}
+        m_TargetAssemblyTypeName: InputMgr, Assembly-CSharp
+        m_MethodName: OnMouseRight
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 389dc63b-d075-40ad-97f6-5794a3cc648e
+    m_ActionName: ActionMap/MouseRight[/Mouse/rightButton]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: ActionMap
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &364831919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364831916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782572370b2e8c24bbcbe005eb9d9184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInputAccepted: 0
+  WSAD: {x: 0, y: 0}
+  Esc: 0
+  MousePos: {x: 0, y: 0}
+  MouseDelta: {x: 0, y: 0}
+  MouseMiddleButton: 0
+  Shift: 0
+  Crouch: 0
+  mouseLeft: 0
+  mouseRight: 0
+  mouseWorldPoint: {fileID: 0}
+--- !u!1 &479224689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479224691}
+  - component: {fileID: 479224690}
+  - component: {fileID: 479224692}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &479224690
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479224689}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &479224691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479224689}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &479224692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479224689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1 &1769992238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1769992239}
+  - component: {fileID: 1769992240}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1769992239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769992238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2072789927}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1769992240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769992238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df080e25402a5145bb27948c66cd263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataFilePath: 
+  firstEnterDatafilePath: Data/ArchiveData
+  hitForce: 1
+--- !u!1 &1920394820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920394823}
+  - component: {fileID: 1920394822}
+  - component: {fileID: 1920394821}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1920394821
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920394820}
+  m_Enabled: 1
+--- !u!20 &1920394822
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920394820}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1920394823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920394820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2072789926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2072789927}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2072789927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072789926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 512.938, y: 245.15767, z: 1056.4122}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 364831917}
+  - {fileID: 1769992239}
+  - {fileID: 42965338}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

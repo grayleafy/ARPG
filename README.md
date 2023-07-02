@@ -1,6 +1,8 @@
 # ARPG
 Unity3D ARPG小游戏 实现了对话、任务、背包、武器系统，可以存档读档，有简短的剧情，行为树控制角色AI，IK控制脚贴地，AnimationRigging控制持枪瞄准和武器切换
 学习Unity后的第一个探索性质的ARPG游戏，大部分系统都简单的实现了但是没有追求细节，后期觉得写得不够好然后摆烂准备下一个项目
+## 一些注意事项
+字体文件太大了上传不了，需要自行替换
 ![屏幕截图 2023-07-02 111902](https://github.com/grayleafy/ARPG/assets/86156654/bc54363b-0958-41c8-aee2-fd3bb89769c0)
 ![屏幕截图 2023-07-02 111937](https://github.com/grayleafy/ARPG/assets/86156654/02d94dd1-95a8-4c65-a641-7f7a996d8880)
 ![屏幕截图 2023-07-02 111957](https://github.com/grayleafy/ARPG/assets/86156654/52ba46dd-a562-41ee-b83f-f523463c48ef)
